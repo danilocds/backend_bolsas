@@ -38,7 +38,7 @@ const run = async () => {
     app
         .use(adminJs.options.rootPath, router)
 
-    await app.listen(3000, () => console.log("Server Start"));
+    await app.listen(5500, () => console.log("Server Start"));
 };
 
 run();
